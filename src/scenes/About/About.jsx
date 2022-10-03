@@ -13,7 +13,7 @@ const About = () => {
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
               Know Who <b className={s.purple}>I'M</b>
-            </h1>
+            </h1> 
             <AboutTextCard />
           </div>
 
