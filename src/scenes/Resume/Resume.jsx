@@ -39,7 +39,7 @@ const Resume = () => {
       <div className={s.content}>
         <div className={s.header}>
           <h1 className={s.title}>
-            My <br /> Resume
+            My Resume
           </h1>
 
           <div className={s.filesImg}>
@@ -48,7 +48,7 @@ const Resume = () => {
         </div>
 
         <Button
-          style={{ margin: 'auto', width: '15rem' }}
+          style={{ margin: 'auto', width: '30rem' }}
           className="primary"
           href={resumeLink}
           target="_blank"
@@ -58,7 +58,7 @@ const Resume = () => {
           <span className={s.filename}>.pdf</span>
         </Button>
 
-        <div className={s.pdfWrapper} ref={pdfWrapper}>
+        {/* <div className={s.pdfWrapper} ref={pdfWrapper}>
           <Document
             loading={<LinerProgress />}
             file={{
@@ -72,7 +72,7 @@ const Resume = () => {
               pageNumber={1}
             />
           </Document>
-        </div>
+        </div> */}
       </div>
     </BaseLayout>
   );

@@ -13,7 +13,7 @@ const Particles = () => {
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
-
+ 
   const particles = dark
     ? DARK_THEME_PARTICLES
     : LIGHT_THEME_PARTICLES;
@@ -23,16 +23,21 @@ const Particles = () => {
       init={particlesInit}
       params={{
         particles: particles,
+        fpsLimit: 120,
         interactivity: {
           events: {
             onclick: {
               enable: true,
-              mode: 'push',
+              mode: 'repulse',
+            },
+            onHover: {
+              enable: true,
+              mode: "grab",
             },
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 3,
             },
           },
         },

@@ -14,7 +14,7 @@ export const LIGHT_THEME_PARTICLES = {
     random: true,
     anim: {
       enable: true,
-      speed: 1,
+      speed: 5,
       opacity_min: 0.1,
       sync: false,
     },
@@ -45,7 +45,7 @@ export const LIGHT_THEME_PARTICLES = {
     out_mode: 'out',
     bounce: false,
     attract: {
-      enable: false,
+      enable: true,
       rotateX: 600,
       rotateY: 1200,
     },
@@ -57,16 +57,11 @@ export const DARK_THEME_PARTICLES = {
     value: 100,
     density: {
       enable: true,
-      area: 1500,
+      area: 1000,
     },
   },
-  move: {
-    enable: true,
-    direction: 'right',
-    speed: 0.05,
-  },
   size: {
-    value: 1,
+    value: 2,
   },
   opacity: {
     anim: {
@@ -74,5 +69,28 @@ export const DARK_THEME_PARTICLES = {
       speed: 1,
       opacity_min: 0.05,
     },
+    
   },
+  links: {
+    enable: false,
+    color: "#FFFFFF",
+    distance: 150,
+    width: 2,
+    consent: false,
+  },
+  move: {
+    enable: true,
+    speed: 1,
+    direction: 'none',
+    random: true,
+    straight: false,
+    out_mode: 'out',
+    bounce: false,
+    attract: {
+      enable: true,
+      rotateX: 600,
+      rotateY: 1200,
+    },
+  },
+
 };

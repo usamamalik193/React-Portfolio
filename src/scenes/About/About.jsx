@@ -17,9 +17,9 @@ const About = () => {
             <AboutTextCard />
           </div>
 
-          <div className={s.aboutImg}>
+          {/* <div className={s.aboutImg}>
             <img src={aboutPromoImg} alt="about" />
-          </div>
+          </div> */}
         </div>
 
         <h2 className={s.skills}>

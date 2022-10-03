@@ -16,7 +16,7 @@ const Header = ({ children }) => {
 
   return (
     <div
-      className={cx(s.header, {
+      className={cx(s.header, { 
         [s.highlighted]: headerHighlight,
       })}
     >

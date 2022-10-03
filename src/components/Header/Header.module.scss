@@ -1,17 +1,17 @@
 .header {
   position: fixed;
-  z-index: 130;
+  z-index: 980;
   width: 100%;
   background-attachment: scroll;
-  padding: 3.9px 26px;
+  padding: 25px 26px;
   transition: all 0.3s ease-out 0s;
   text-overflow: clip;
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: left;
   flex-wrap: wrap;
 }
 
@@ -22,7 +22,7 @@
   backdrop-filter: blur(15px);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
   .header {
     background-color: var(--bg-primary);
     backdrop-filter: none;

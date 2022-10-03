@@ -2,9 +2,8 @@ import s from './IntroSection.module.scss';
 import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
 import {
-  FaFacebookSquare,
+  FaInstagram,
   FaLinkedinIn,
-  FaTelegramPlane,
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -39,13 +38,13 @@ const IntroSection = () => {
               A passionate Full Stack Software Developer 🚀 <br />I
               have an experience of building{' '}
               <i>
-                <b className={s.purple}>Web and Mobile</b>
+                <b className={s.purple}>Web </b>
               </i>{' '}
               applications with
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript, Reactjs, Nodejs, React Native
+                  JavaScript, Reactjs, Nodejs, MongoDB
                 </b>
               </i>{' '}
               and some other cool libraries
@@ -67,37 +66,27 @@ const IntroSection = () => {
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/usamamalik193"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <AiFillGithub />
+              <AiFillGithub /> 
             </a>
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
+              href="https://www.instagram.com/usama.malik193/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
             >
-              <FaFacebookSquare />
+              <FaInstagram />
             </a>
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://t.me/snaichuk_v"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaTelegramPlane />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com/in/usama-malik-1998az193/"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}

@@ -4,12 +4,10 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiGit,
   DiSass,
 } from 'react-icons/di';
 import {
   SiTypescript,
-  SiRedux,
   SiSocketdotio,
   SiAmazonaws,
 } from 'react-icons/si';
@@ -39,13 +37,7 @@ const TechSkills = () => {
         <SiAmazonaws />
       </li>
       <li className={s.techIcon}>
-        <SiRedux />
-      </li>
-      <li className={s.techIcon}>
         <SiSocketdotio />
-      </li>
-      <li className={s.techIcon}>
-        <DiGit />
       </li>
     </ul>
   );
