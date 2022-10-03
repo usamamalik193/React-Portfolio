@@ -1,0 +1,48 @@
+* [33m2e843a3[m[33m ([m[1;36mHEAD -> [m[1;32mtemp[m[33m)[m first commit
+* [33m39f4d98[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m first Commit
+* [33m3cfebef[m[33m ([m[1;31mupstream/master[m[33m, [m[1;31mupstream/HEAD[m[33m)[m Fix type issue
+* [33mb673344[m Update to react 18
+* [33mb322686[m Fix bug. Minor refactor
+* [33mff40a2d[m Update GitHubCalendar
+* [33m3008f7e[m Refactor code
+* [33md79e98e[m Update deps. Use tsparticles instead of react-particles-js
+* [33mef6ab66[m Update README.md
+* [33m4558599[m Update README.md
+* [33mc01a0f0[m Update README.md
+* [33m5d2c1c8[m Minor style fixes. Change icons
+*   [33ma046fc2[m Merge pull request #1 from fossabot/add-license-scan-badge
+[32m|[m[33m\[m  
+[32m|[m *   [33mffcad86[m Merge branch 'master' into add-license-scan-badge
+[32m|[m [34m|[m[32m\[m  
+[32m|[m [34m|[m[32m/[m  
+[32m|[m[32m/[m[34m|[m   
+* [34m|[m [33m7040ce3[m Update README.md
+* [34m|[m [33mff1c5a8[m Add README.md, project info, ignore .idea
+* [34m|[m [33m9bd4e3e[m Update linkedin link
+* [34m|[m [33mf5c1e08[m Minor changes
+* [34m|[m [33mc3463a7[m Minor fix
+* [34m|[m [33m80a6c44[m Add AnnotationLayer and minor changes
+* [34m|[m [33ma9e42bd[m Add lazy loading to images
+* [34m|[m [33m11ef2a2[m Fix full page height and fixed footer in bottom
+* [34m|[m [33m7bb11b1[m Minor fix in  web manifest
+* [34m|[m [33m27abf7c[m Fix and Improve themeContext
+* [34m|[m [33m7ec62a4[m Fix ReactParticles
+* [34m|[m [33m80c0f5c[m Remove useless imports. Fix styles. Fill up scenes
+[35m|[m * [33md308c49[m Add license scan report and status
+[35m|[m[35m/[m  
+* [33m04b56b6[m Fix Routable modal, use CSSTransition to Modal component, Implement modal hook, fix modal styles. Move data.js to constants dir
+* [33m4336392[m Implement Themes Hook, MainNavigation refactoring, App and styles
+* [33m7b02e28[m Met all createria to show PWA install prompt -A
+* [33mce5b90d[m Met all createria to show PWA install prompt
+* [33me79ca8b[m Fix responsive issues in Resume, and other scenes. Implement web manifest, icons for mobile device and favicon
+* [33m59aea72[m Implement Drawer, Burger, Backdrop, transitions. Improve Modal and Cards. Add media-queries, minor fix and refactoring
+* [33me476805[m Add React Suspence and lazy. Implement preloader
+* [33mb911abe[m Add missing in repo button component
+* [33mc1dcf52[m Implement download button. Minor fix
+* [33m8be4051[m Implement Home layout, resume page and LinerProgress. Minor refactoring
+* [33m31db24f[m Implement Projects scene and refactoring
+* [33me617ab1[m Finish About scene. Fix styles
+* [33m6c5d439[m Start About scene
+* [33m98637c9[m Finish home sections: main and intro
+* [33md7a95cf[m Implement BaseLayout, Header Footer Logo and NavBar
+* [33ma746590[m Initialize project using Create React App
